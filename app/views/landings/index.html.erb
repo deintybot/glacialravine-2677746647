@@ -63,8 +63,17 @@
                         <div class="col-md-6 col-md-offset-1">
                             <div class="description">
                                 <h2>Awesome landing page.</h2>
+<!--                                 <br>
+                                <h4><%= @count %></h4> -->
                                 <br>
                                 <h5>Be amazed by the best looking bootstrap landing page on the web! Your new app deserves an amazing page to show all of its features. Clear visual, light colours and beautifully aligned elements - they all try to make the users aware of your great app features!</h5>
+
+                                <%= form_for @earlyBird do |form| %>
+                                  <p><%= form.text_field :name %></p>
+                                  <p><%= form.text_field :email %></p>
+                                  <p><%= form.text_field :phone %></p>
+                                  <%= form.submit %>
+                                <% end %>  
                             </div>
                             <div class="buttons">
                                 <button class="btn btn-fill btn-neutral">
