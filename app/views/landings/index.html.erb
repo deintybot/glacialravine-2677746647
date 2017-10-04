@@ -8,15 +8,15 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                     </button>
-                    <a href="http://www.creative-tim.com">
+                    <a href="http://www.deinty.com">
                         <div class="logo-container">
                             <div class="logo">
                                 <!-- <img src="assets/img/new_logo.png" alt="Creative Tim Logo"> -->
-                                <%= image_tag('new_logo.png', alt: "deinty logo")%>
+                                <%= image_tag('Deinty_logo.png', alt: "deinty logo")%>
                             </div>
-                            <div class="brand">
+<!--                             <div class="brand">
                                 Creative Tim
-                            </div>
+                            </div> -->
                         </div>
                     </a>
                 </div>
@@ -24,21 +24,15 @@
                 <div class="collapse navbar-collapse" id="example" >
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">
+                            <a href="https://web.facebook.com/deintybot/">
                             <i class="fa fa-facebook-square"></i>
                             Like
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://twitter.com/deintybot">
                             <i class="fa fa-twitter"></i>
                             Tweet
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                            <i class="fa fa-pinterest"></i>
-                            Pin
                             </a>
                         </li>
                     </ul>
@@ -49,7 +43,7 @@
         <div class="wrapper">
             <div class="parallax filter-gradient blue" data-color="blue">
                 <div class="parallax-background">
-                    <%= image_tag('template/bg3.jpg', class: "parallax-background-image")%>
+                    <%= image_tag('template/africanbg.jpg', class: "parallax-background-image")%>
                     <!-- <img class="parallax-background-image" src="assets/img/template/bg3.jpg"> -->
                 </div>
                 <div class= "container">
@@ -57,25 +51,18 @@
                         <div class="col-md-5 hidden-xs">
                             <div class="parallax-image">
                                 <!-- <img class="phone" src="assets/img/template/iphone3.png" style="margin-top: 20px"/> -->
-                                <%= image_tag('template/iphone3.png', alt: "deinty phone", class: "phone", style: "margin-top: 20px")%>
+                                <%= image_tag('template/feature_phone.png', alt: "deinty phone", class: "phone", style: "margin-top: 20px")%>
                             </div>
                         </div>
                         <div class="col-md-6 col-md-offset-1">
                             <div class="description">
-                                <h2>Awesome landing page.</h2>
+                                <h2>Peer - Peer Insurance for People who need it.</h2>
 <!--                                 <br>
                                 <h4><%= @count %></h4> -->
                                 <br>
-                                <h5>Be amazed by the best looking bootstrap landing page on the web! Your new app deserves an amazing page to show all of its features. Clear visual, light colours and beautifully aligned elements - they all try to make the users aware of your great app features!</h5>
-
-                                <%= form_for @earlyBird do |form| %>
-                                  <p><%= form.text_field :name %></p>
-                                  <p><%= form.text_field :email %></p>
-                                  <p><%= form.text_field :phone %></p>
-                                  <%= form.submit %>
-                                <% end %>  
+                                <h5>Deinty uses mobile USSD and IVR technologies to deliver peer based risk management and Insurance products to the financially excluded in Africa's largest economy Nigeria.</h5>
                             </div>
-                            <div class="buttons">
+<!--                             <div class="buttons">
                                 <button class="btn btn-fill btn-neutral">
                                 <i class="fa fa-apple"></i> Appstore
                                 </button>
@@ -85,12 +72,14 @@
                                 <button class="btn btn-simple btn-neutral">
                                 <i class="fa fa-windows"></i>
                                 </button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section section-gray section-clients">
+
+<!-- TODO: Add partner Institutions, NGO's and Governmental Bodies -->
+<!--             <div class="section section-gray section-clients">
                 <div class="container text-center">
                     <h4 class="header-text">Friends in high places</h4>
                     <p>
@@ -104,38 +93,8 @@
                             <%= image_tag('logos/evernote.png')%>
                             <%= image_tag('logos/airbnb.png')%>
                             <%= image_tag('logos/zappos.png')%>
-<!-- 
-                            <li ><img src="assets/img/logos/adobe.png"/></li>
-                            <li ><img src="assets/img/logos/zendesk.png"/></li>
-                            <li ><img src="assets/img/logos/ebay.png"/></i>
-                            <li ><img src="assets/img/logos/evernote.png"/></li>
-                            <li ><img src="assets/img/logos/airbnb.png"/></li>
-                            <li ><img src="assets/img/logos/zappos.png"/></li> 
-
--->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="section section-presentation">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="description">
-                                <h4 class="header-text">It's beautiful</h4>
-                                <p>And your app is also probably social, awesome, easy-to-use and vital to users. This is the place to enlist all the good things that your app has to share. Focus on the benefits that the uers will receive. Try to combine imaginery with text and show meaningful printscreens from your app, that will make it clear what exactly the basic functions are. </p>
-                                <p>Try to make it very clear for the people browsing the page that this product will enrich their life and will make a nice addition to the homescreen.
-                                <p>
-                            </div>
-                        </div>
-                        <div class="col-md-5 col-md-offset-1 hidden-xs">
-                            <%= image_tag('template/mac.png')%>
-                            <!-- <img src="assets/img/template/mac.png"/> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section section-demo">
+ -->
+<!--             <div class="section section-demo">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -143,15 +102,12 @@
                                 <div class="carousel-inner">
                                     <div class="item">
                                         <%= image_tag('template/examples/home_33.jpg', alt: "")%>
-                                        <!-- <img src="assets/img/template/examples/home_33.jpg" alt=""> -->
                                     </div>
                                     <div class="item active">
                                         <%= image_tag('template/examples/home_22.jpg', alt: "")%>
-                                        <!-- <img src="assets/img/template/examples/home_22.jpg" alt=""> -->
                                     </div>
                                     <div class="item">
                                         <%= image_tag('template/examples/home_11.jpg', alt: "")%>
-                                        <!-- <img src="assets/img/template/examples/home_11.jpg" alt=""> -->
                                     </div>
                                 </div>
                                 <ol class="carousel-indicators carousel-indicators-blue">
@@ -170,10 +126,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="section section-features">
                 <div class="container">
-                    <h4 class="header-text text-center">Features</h4>
+                    <h4 class="header-text text-center">How it Works.</h4>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card card-blue">
@@ -181,66 +137,64 @@
                                     <i class="pe-7s-note2"></i>
                                 </div>
                                 <div class="text">
-                                    <h4>Online Customers Management</h4>
-                                    <p>All appointments sync with your Google calendar so your availability is always up to date. See your schedule at a glance from any device.</p>
+                                    <h4>1. Start a Group</h4>
+                                    <p>Select a trusted group of 10 to 20 people in your community who want to protect the same things you want. <br> Unable to? Don't worry our trusted community agents can help you set one up.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card card-blue">
                                 <div class="icon">
-                                    <i class="pe-7s-bell"></i>
+                                    <i class="pe-7s-piggy"></i>
                                 </div>
-                                <h4>Smart Notifications on hands</h4>
-                                <p>Automatic text and email reminders make sure customers always remember their upcoming appointments.</p>
+                                <h4>2. Purchase Cover</h4>
+                                <p>Your group can then go ahead to purchase policies individually at prices determined for your group using airtime via USSD or IVR in your local language.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card card-blue">
                                 <div class="icon">
-                                    <i class="pe-7s-graph1"></i>
+                                    <i class="pe-7s-cash"></i>
                                 </div>
-                                <h4>Know your business better now</h4>
-                                <p>Take payments and run your business on the go, in your store and then see how it all adds up with analytics.</p>
+                                <h4>3. Process Claims</h4>
+                                <p>Simply submit a claim via IVR or USSD and our proprietary algorith will process and pay out within 5 to 10 minutes .</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="section section-testimonial">
                 <div class="container">
-                    <h4 class="header-text text-center">What people think</h4>
+                    <h4 class="header-text text-center">Why this will work.</h4>
                     <div id="carousel-example-generic" class="carousel fade" data-ride="carousel">
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item">
                                 <div class="mask">
-                                    <%= image_tag('faces/face-4.jpg')%>
-                                    <!-- <img src="assets/img/faces/face-4.jpg"> -->
+                                    <%= image_tag('faces/ade.jpg', alt: "")%>
                                 </div>
                                 <div class="carousel-testimonial-caption">
-                                    <p>Jay Z, Producer</p>
-                                    <h3>"I absolutely love your app! It's truly amazing and looks awesome!"</h3>
+                                    <p>Ade Olowojoba,CSR Professional</p>
+                                    <h3>"Imagine getting back cash the Insurance Company doesn't pay out to cover claims. Deinty pays you back what's left after all claims are covered! This is awesome!"</h3>
                                 </div>
                             </div>
                             <div class="item active">
                                 <div class="mask">
-                                    <%= image_tag('faces/face-3.jpg')%>
-                                    <!-- <img src="assets/img/faces/face-3.jpg"> -->
+                                    <%= image_tag('faces/akin.jpg', alt: "")%>
                                 </div>
                                 <div class="carousel-testimonial-caption">
-                                    <p>Drake, Artist</p>
-                                    <h3>"This is one of the most awesome apps I've ever seen! Wish you luck Creative Tim!"</h3>
+                                    <p>Akin Akinsulire, Deinty</p>
+                                    <h3>"Deinty really cares and brings together the community to help Deinty help you. This is why we choose peer to peer.We are truly African, celebrating the virtues of Ubuntu."</h3>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="mask">
-                                    <%= image_tag('faces/face-2.jpg')%>
-                                    <!-- <img src="assets/img/faces/face-2.jpg"> -->
+                                    <%= image_tag('faces/sola.jpg', alt: "")%>
                                 </div>
                                 <div class="carousel-testimonial-caption">
-                                    <p>Rick Ross, Musician</p>
-                                    <h3>"Loving this! Just picked it up the other day. Thank you for the work you put into this."</h3>
+                                    <p>Olusola Amusan, Microsoft Philantropies</p>
+                                    <h3>"Simple technology, available agents, wide network and reach. Participating fully in Community development, education and protection. Deinty is truly financially inclusive"</h3>
                                 </div>
                             </div>
                         </div>
@@ -252,22 +206,30 @@
                     </div>
                 </div>
             </div>
+
             <div class="section section-no-padding">
                 <div class="parallax filter-gradient blue" data-color="blue">
                     <div class="parallax-background">
-                        <%= image_tag('template/bg3.jpg', class: "parallax-background-image")%>
+                        <%= image_tag('template/africanbg.jpg', class: "parallax-background-image")%>
                         <!-- <img class ="parallax-background-image" src="assets/img/template/bg3.jpg"/> -->
                     </div>
                     <div class="info">
-                        <h1>Download this landing page for free!</h1>
-                        <p>Beautiful multipurpose bootstrap landing page.</p>
-                        <a href="http://www.creative-tim.com/product/awesome-landing-page" class="btn btn-neutral btn-lg btn-fill">DOWNLOAD</a>
+                        <h2>Don't hesitate to reach out.</h2>
+                        <h4>talktous@deinty.com <br> or <br> call us +234806279740</h4>
+<!--                         <span>
+                            <%= form_for @earlyBird do |form| %>
+                              <p> Name <%= form.text_field :name %> </p>
+                              <p> Email <%= form.text_field :email %></p>
+                              <p> Phone <%= form.text_field :phone %></p>
+                              <%= form.submit %>
+                            <% end %> 
+                        </span>  -->                      
                     </div>
                 </div>
             </div>
             <footer class="footer">
                 <div class="container">
-                    <nav class="pull-left">
+<!--                     <nav class="pull-left">
                         <ul>
                             <li>
                                 <a href="#">
@@ -290,20 +252,17 @@
                                 </a>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> -->
                     <div class="social-area pull-right">
-                        <a class="btn btn-social btn-facebook btn-simple">
+                        <a class="btn btn-social btn-facebook btn-simple", href="https://web.facebook.com/deintybot/">
                         <i class="fa fa-facebook-square"></i>
                         </a>
-                        <a class="btn btn-social btn-twitter btn-simple">
+                        <a class="btn btn-social btn-twitter btn-simple", href="https://twitter.com/deintybot">
                         <i class="fa fa-twitter"></i>
-                        </a>
-                        <a class="btn btn-social btn-pinterest btn-simple">
-                        <i class="fa fa-pinterest"></i>
                         </a>
                     </div>
                     <div class="copyright">
-                        &copy; 2016 <a href="http://www.creative-tim.com">Creative Tim</a>, made with love
+                        &copy; 2017 <a href="http://www.deinty.com">Deinty</a
                     </div>
                 </div>
             </footer>

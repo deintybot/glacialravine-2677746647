@@ -16,7 +16,7 @@ class LandingsController < ApplicationController
   def getNotified
   	@earlyBird = Subscribe.new(subscribe_params)
  	if @earlyBird.save
- 		redirect_to root_path, alert: "Yippee! Welcome to the Party. Check #{@earlyBird.email} for more."
+ 		redirect_to root_path, notice: "Yippee! Welcome to the Party. Check your email for more."
  	else
  		redirect_to root_path
  	end
