@@ -2,7 +2,6 @@ class LandingsController < ApplicationController
   # Rendr the Index page
   def index
   	@earlyBird = Subscribe.new
-  	@count = Subscribe.all.count
   end
 
   def show
